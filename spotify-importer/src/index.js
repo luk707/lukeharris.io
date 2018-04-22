@@ -6,7 +6,7 @@ import { config } from "dotenv";
 import path from "path";
 
 // Get environment files
-config(path.resolve(process.cwd(), "..", ".env"));
+config(path.resolve(__dirname, "..", ".env"));
 
 // These used to be hard coded up here but now there aliasing the env file
 // because im lazy
