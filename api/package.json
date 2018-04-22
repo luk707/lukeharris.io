@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "dev": "nodemon --exec \"node -r dotenv/config -r babel-register\" src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "moment": "^2.22.1",
+    "promise-mysql": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.17.3"
+  }
+}
