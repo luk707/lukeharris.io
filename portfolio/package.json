@@ -3,6 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-brands": "^5.0.10",
+    "@fortawesome/fontawesome-pro-light": "^5.0.10",
+    "@fortawesome/fontawesome-pro-regular": "^5.0.10",
+    "@fortawesome/fontawesome-pro-solid": "^5.0.10",
+    "@fortawesome/react-fontawesome": "0.0.18",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.12.4",
+    "normalize.css": "^8.0.0",
+    "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-scripts": "1.1.4"
